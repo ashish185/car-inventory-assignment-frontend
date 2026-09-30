@@ -1,0 +1,34 @@
+# Contract implemented by the mock API in src/mocks/handlers.ts.
+# This file is documentation — nothing generates from it.
+
+type Car {
+  id: ID!
+  make: String!
+  model: String!
+  year: Int!
+  color: String!
+  mobile: String!   # image for viewports <= 639px
+  tablet: String!   # image for viewports 640px - 1023px
+  desktop: String!  # image for viewports >= 1024px
+}
+
+input CreateCarInput {
+  make: String!
+  model: String!
+  year: Int!
+  color: String!
+  mobile: String
+  tablet: String
+  desktop: String
+}
+
+type Query {
+  "All filter arguments are optional. Strings are case-insensitive substring matches; year is exact."
+  cars(make: String, model: String, year: Int, color: String): [Car!]!
+  car(id: ID!): Car
+}
+
+type Mutation {
+  "Fails with BAD_USER_INPUT if make or model is blank."
+  createCar(input: CreateCarInput!): Car!
+}

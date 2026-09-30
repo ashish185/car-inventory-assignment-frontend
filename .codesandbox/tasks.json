@@ -1,0 +1,16 @@
+{
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
+  "setupTasks": [
+    { "name": "Install dependencies", "command": "npm install" }
+  ],
+  "tasks": {
+    "dev": {
+      "name": "Dev server",
+      "command": "npm run dev",
+      "runAtStart": true,
+      "preview": { "port": 3000 }
+    },
+    "test": { "name": "Tests", "command": "npm test", "runAtStart": false },
+    "verify": { "name": "Verify", "command": "npm run verify", "runAtStart": false }
+  }
+}

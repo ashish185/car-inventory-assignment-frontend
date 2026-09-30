@@ -1,0 +1,16 @@
+:root {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #1a1d21;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f7f7f8;
+}
+
+*:focus-visible {
+  outline: 2px solid #0b5cd5;
+  outline-offset: 2px;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Audi A3 placeholder, mobile crop">
+  <rect width="640" height="420" fill="#B3282D"/>
+  <rect x="38" y="50" width="563" height="319" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="320" y="193" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="55" font-weight="700" text-anchor="middle">Audi A3</text>
+  <text x="320" y="260" fill="#FFFFFF" fill-opacity="0.85" font-family="Helvetica, Arial, sans-serif" font-size="32" text-anchor="middle">mobile &#183; 640&#215;420</text>
+</svg>

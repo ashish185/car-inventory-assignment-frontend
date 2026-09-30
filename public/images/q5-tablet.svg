@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 576" width="1024" height="576" role="img" aria-label="Audi Q5 placeholder, tablet crop">
+  <rect width="1024" height="576" fill="#E8E9EB"/>
+  <rect x="61" y="69" width="901" height="438" fill="none" stroke="#1F2328" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="512" y="265" fill="#1F2328" font-family="Helvetica, Arial, sans-serif" font-size="75" font-weight="700" text-anchor="middle">Audi Q5</text>
+  <text x="512" y="357" fill="#1F2328" fill-opacity="0.85" font-family="Helvetica, Arial, sans-serif" font-size="43" text-anchor="middle">tablet &#183; 1024&#215;576</text>
+</svg>
